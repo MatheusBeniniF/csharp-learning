@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "YhVQ5Jp8EQ/qGN/8uoD1Yn7AqZZfrW/6M8qNCCI97PjEuB+tHry2n9Y04WsWn7/Agsbs3UeGpZoLnlLMeVglZQ==",
+  "success": true,
+  "projectFilePath": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaApi/AtletaApi.csproj",
+  "expectedPackageFiles": [
+    "/Users/matheusbeniniferreira/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
+    "/Users/matheusbeniniferreira/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/matheusbeniniferreira/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/matheusbeniniferreira/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/matheusbeniniferreira/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/matheusbeniniferreira/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/matheusbeniniferreira/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,4 @@
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula04/obj/Debug/net7.0/aula04.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula04/obj/Debug/net7.0/aula04.AssemblyInfoInputs.cache
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula04/obj/Debug/net7.0/aula04.AssemblyInfo.cs
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula04/obj/Debug/net7.0/aula04.csproj.CoreCompileInputs.cache
