@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mv5bzzKwDKSd7C6lNqXo7HYjV2GUTv17oNf9TVurk3cYrmfBJCdr33hQXABHRCzh2gkxpcAESCDSecKjAiGSDw==",
+  "dgSpecHash": "3UiFtymKVFqb9eI7CtvghG8BGHY3n3evLKfwK8v7bObp32FjWijbD7tNfrND4j6ZiTvcMj7ExQCvvzHGDevjBg==",
   "success": true,
-  "projectFilePath": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaApi/AtletaApi.csproj",
+  "projectFilePath": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/AtletaInfra.csproj",
   "expectedPackageFiles": [
     "/Users/matheusbeniniferreira/.nuget/packages/microsoft.aspnetcore.openapi/7.0.0/microsoft.aspnetcore.openapi.7.0.0.nupkg.sha512",
     "/Users/matheusbeniniferreira/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

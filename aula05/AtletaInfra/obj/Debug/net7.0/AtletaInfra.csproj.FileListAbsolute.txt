@@ -1,0 +1,7 @@
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/obj/Debug/net7.0/AtletaInfra.csproj.AssemblyReference.cache
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/obj/Debug/net7.0/AtletaInfra.GeneratedMSBuildEditorConfig.editorconfig
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/obj/Debug/net7.0/AtletaInfra.AssemblyInfoInputs.cache
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/obj/Debug/net7.0/AtletaInfra.AssemblyInfo.cs
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/obj/Debug/net7.0/AtletaInfra.csproj.CoreCompileInputs.cache
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/obj/Debug/net7.0/AtletaInfra.MvcApplicationPartsAssemblyInfo.cs
+/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/obj/Debug/net7.0/AtletaInfra.MvcApplicationPartsAssemblyInfo.cache

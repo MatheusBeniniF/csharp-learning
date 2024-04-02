@@ -107,40 +107,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-      },
-      "AtletaInfra/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "7.0.0",
-          "Swashbuckle.AspNetCore": "6.5.0"
-        },
-        "compile": {
-          "bin/placeholder/AtletaInfra.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AtletaInfra.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
-      },
-      "AtletaModel/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Microsoft.AspNetCore.OpenApi": "7.0.0",
-          "Swashbuckle.AspNetCore": "6.5.0"
-        },
-        "compile": {
-          "bin/placeholder/AtletaModel.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/AtletaModel.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
       }
     }
   },
@@ -494,22 +460,10 @@
         "swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
-    },
-    "AtletaInfra/1.0.0": {
-      "type": "project",
-      "path": "../AtletaInfra/AtletaInfra.csproj",
-      "msbuildProject": "../AtletaInfra/AtletaInfra.csproj"
-    },
-    "AtletaModel/1.0.0": {
-      "type": "project",
-      "path": "../AtletaModel/AtletaModel.csproj",
-      "msbuildProject": "../AtletaModel/AtletaModel.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "AtletaInfra >= 1.0.0",
-      "AtletaModel >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
@@ -520,11 +474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaApi/AtletaApi.csproj",
-      "projectName": "AtletaApi",
-      "projectPath": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaApi/AtletaApi.csproj",
+      "projectUniqueName": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/AtletaInfra.csproj",
+      "projectName": "AtletaInfra",
+      "projectPath": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/AtletaInfra.csproj",
       "packagesPath": "/Users/matheusbeniniferreira/.nuget/packages/",
-      "outputPath": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaApi/obj/",
+      "outputPath": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/matheusbeniniferreira/.nuget/NuGet/NuGet.Config"
@@ -538,14 +492,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/AtletaInfra.csproj": {
-              "projectPath": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaInfra/AtletaInfra.csproj"
-            },
-            "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaModel/AtletaModel.csproj": {
-              "projectPath": "/Users/matheusbeniniferreira/estudos/csharp-learning/aula05/AtletaModel/AtletaModel.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
