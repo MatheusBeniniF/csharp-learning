@@ -1,9 +1,9 @@
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AtletaModel;
-using AtletaInfra.DAOs;
+using AtletaApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AtletaApi.Controllers
@@ -12,25 +12,28 @@ namespace AtletaApi.Controllers
     [Route("api/[controller]")]
     public class AtletaController : ControllerBase
     {
-        public AtletaController()
+        static AtletaController()
         {
-            dao = new AtletaDAO()
+            objetos = new List<Atleta>
+            {
+                new() { Id = "X1", Nome = "Ana", Altura = 1.7, Peso = 60 },
+                new() { Id = "X2", Nome = "Juliana", Altura = 2, Peso = 90 }
+            };
         }
 
         [HttpGet]
         public ActionResult<IEnumerable<Atleta>> Get()
         {
-            var objetos = dao.RetornarTodos();
             if (objetos == null)
                 return NotFound();
 
-            return OK(objetos);
+            return objetos;
         }
 
         [HttpGet("{id}")]
         public ActionResult<Atleta> GetId(string id)
         {
-            var obj = dao.RetornarPorId(id);
+            var obj = objetos?.FirstOrDefault(x => x.Id == id);
 
             if (obj == null)
                 return NotFound();
@@ -44,7 +47,7 @@ namespace AtletaApi.Controllers
             if (obj.Id == null)
                 obj.Id = Guid.NewGuid().ToString();
             
-            dao.Inserir(obj);
+            objetos.Add(obj);
 
             return CreatedAtAction(
                 nameof(GetId),
@@ -59,8 +62,9 @@ namespace AtletaApi.Controllers
             if (id != obj.Id)
                 return BadRequest();
         
-            var objOrig = dao.RetornarPorId(id);
+            var objOrig = objetos.FirstOrDefault(x => x.Id == id);
 
+        // faz update no banco de dados
             if (objOrig == null)
                 return NotFound();
 
@@ -68,22 +72,27 @@ namespace AtletaApi.Controllers
             objOrig.Nome = obj.Nome;
             objOrig.Peso = obj.Peso;
 
-            dao.Alterar(obj);
-
             return NoContent();
         }
 
-        [HttpDelete("{id}")]
+
+         [HttpDelete("{id}")]
         public IActionResult Delete(string id)
         {
             if (objetos == null)
                 return NotFound();
         
-            var obj = dao.Excluir(id);
+            var obj = objetos.FirstOrDefault(x => x.Id == id);
+        
+            if (obj == null)
+                return NotFound();
+        
+            objetos.Remove(obj);
 
             return NoContent();
         }
 
-        private readonly AtletaDAO dao = null;
+
+        private static List<Atleta> objetos;
     }
 }

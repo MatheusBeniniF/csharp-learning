@@ -1,0 +1,8 @@
+@page "/ola/{Nome}"
+
+<h1>Olá @Nome</h1>
+
+@code {
+    [Parameter]
+    public string? Nome { get; set; }
+}
